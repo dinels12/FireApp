@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173336291213",
+    "project_id": "mern-test-c969a",
+    "storage_bucket": "mern-test-c969a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173336291213:android:116bbb4d11e15c7b5bbfc4",
+        "android_client_info": {
+          "package_name": "com.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173336291213-5304db5vekbaf0mkkhnr01ud75grqo8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs_RM9he7m7sJWKufsD53Oy5CU8QrBwkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173336291213-5304db5vekbaf0mkkhnr01ud75grqo8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
