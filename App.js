@@ -1,3 +1,5 @@
+/* eslint-disable react-native/no-inline-styles */
+/* eslint-disable react-hooks/exhaustive-deps */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -19,6 +21,23 @@ const App = () => {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
+    dynamic();
+    const unsubscribe = dynamicLinks().onLink((link) => {
+      if (link) {
+        const user = link.url.slice(33, -4);
+        setOriginalName(user);
+        setName(`This Page is for ${user[0].toUpperCase()}${user.slice(1)}`);
+      }
+    });
+
+    messaging().subscribeToTopic('all');
+    checkPermission();
+    createNotificationListeners();
+    setLoading(false);
+    return unsubscribe;
+  }, []);
+
+  const dynamic = () => {
     dynamicLinks()
       .getInitialLink()
       .then((link) => {
@@ -28,11 +47,7 @@ const App = () => {
           setName(`This Page is for ${user[0].toUpperCase()}${user.slice(1)}`);
         }
       });
-    messaging().subscribeToTopic('all');
-    checkPermission();
-    createNotificationListeners();
-    setLoading(false);
-  }, []);
+  };
 
   const checkPermission = async () => {
     const enabled = await messaging().hasPermission();
@@ -45,7 +60,6 @@ const App = () => {
 
   const getToken = async () => {
     let fcmToken = await AsyncStorage.getItem('fcmToken');
-    // console.log(fcmToken);
     if (!fcmToken) {
       fcmToken = await messaging().getToken();
       if (fcmToken) {
@@ -91,7 +105,9 @@ const App = () => {
     }
   };
 
-  if (loading) return null;
+  if (loading) {
+    return null;
+  }
 
   return (
     <View
