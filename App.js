@@ -14,19 +14,18 @@ import axios from 'axios';
 import dynamicLinks from '@react-native-firebase/dynamic-links';
 
 const App = () => {
-  const [name, setName] = React.useState('');
-  const [originalName, setOriginalName] = React.useState('');
+  const [name, setName] = React.useState('You need to use a dynamic link');
+  const [originalName, setOriginalName] = React.useState(null);
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
-    dynamicLinks().onLink();
     dynamicLinks()
       .getInitialLink()
       .then((link) => {
         if (link) {
-          const user = link.url.slice(39);
+          const user = link.url.slice(33, -4);
           setOriginalName(user);
-          setName(user[0].toUpperCase() + user.slice(1));
+          setName(`This Page is for ${user[0].toUpperCase()}${user.slice(1)}`);
         }
       });
     messaging().subscribeToTopic('all');
@@ -91,6 +90,7 @@ const App = () => {
       });
     }
   };
+
   if (loading) return null;
 
   return (
@@ -100,8 +100,10 @@ const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Text style={{fontSize: 25}}>This page is for {name}</Text>
-      <Button title="Send notification" onPress={sendNotification} />
+      <Text style={{fontSize: 25}}>{name}</Text>
+      {originalName ? (
+        <Button title="Send notification" onPress={sendNotification} />
+      ) : null}
     </View>
   );
 };
