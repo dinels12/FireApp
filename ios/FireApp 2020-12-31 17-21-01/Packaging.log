@@ -1,0 +1,155 @@
+2020-12-31 22:19:39 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7faef8369ee0; archive(resolved)='<IDEArchive: 0x7faef83e5220>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7faef8369ee0; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7faef8121700; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef86f43a0; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faf06a21560; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef6264510; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef188ed10; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef8358650; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef835b470; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef6b2c4a0; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7faef70d8e80; teamID='9NH395GNH2', teamName='JIFCAM INC', teamType='Company', username='dinels12@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7faef836c760; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='(null)'>
+	<IDEDistributionContext: 0x7faef3a16540; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='(null)'>
+	<IDEDistributionContext: 0x7faf05a111a0; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7faef8589a60>', team='(null)'>
+	<IDEDistributionContext: 0x7faef1e2d020; archive = '<IDEArchive: 0x7faef83e5220>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7faef8369ee0>
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCopyItemStep
+2020-12-31 22:19:39 +0000  Running /usr/bin/ditto '-V' '/Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root/Payload/FireApp.app'
+2020-12-31 22:19:39 +0000  >>> Copying /Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app 
+2020-12-31 22:19:39 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-12-31 22:19:39 +0000  6616 bytes for ./_CodeSignature/CodeResources
+2020-12-31 22:19:39 +0000  copying file ./FireApp ... 
+2020-12-31 22:19:39 +0000  49909536 bytes for ./FireApp
+2020-12-31 22:19:39 +0000  copying file ./AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+530 bytes for ./AccessibilityResources.bundle/en.lproj/Localizable.strings
+copying file ./AccessibilityResources.bundle/Info.plist ... 
+2020-12-31 22:19:39 +0000  744 bytes for ./AccessibilityResources.bundle/Info.plist
+copying file ./GoogleService-Info.plist ... 
+667 bytes for ./GoogleService-Info.plist
+copying file ./main.jsbundle ... 
+2020-12-31 22:19:39 +0000  767526 bytes for ./main.jsbundle
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-12-31 22:19:39 +0000  4104 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2020-12-31 22:19:39 +0000  4112 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-12-31 22:19:39 +0000  4237 bytes for ./LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-12-31 22:19:39 +0000  896 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2020-12-31 22:19:39 +0000  896 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-12-31 22:19:39 +0000  896 bytes for ./LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-12-31 22:19:39 +0000  copying file ./LaunchScreen.storyboardc/Info.plist ... 
+2020-12-31 22:19:39 +0000  258 bytes for ./LaunchScreen.storyboardc/Info.plist
+2020-12-31 22:19:39 +0000  copying file ./embedded.mobileprovision ... 
+2020-12-31 22:19:39 +0000  11668 bytes for ./embedded.mobileprovision
+2020-12-31 22:19:39 +0000  copying file ./assets/app.json ... 
+2020-12-31 22:19:39 +0000  51 bytes for ./assets/app.json
+2020-12-31 22:19:39 +0000  copying file ./Info.plist ... 
+2020-12-31 22:19:39 +0000  2708 bytes for ./Info.plist
+2020-12-31 22:19:39 +0000  copying file ./PkgInfo ... 
+2020-12-31 22:19:39 +0000  8 bytes for ./PkgInfo
+2020-12-31 22:19:39 +0000  /usr/bin/ditto exited with 0
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-12-31 22:19:39 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-12-31 22:19:39 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-12-31 22:19:39 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionSymbolsStep
+2020-12-31 22:19:39 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionAppThinningStep
+2020-12-31 22:19:39 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionArchThinningStep
+2020-12-31 22:19:39 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root/Payload/FireApp.app/FireApp' '-verify_arch' 'arm64e'
+2020-12-31 22:19:39 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-12-31 22:19:39 +0000  Skipping architecture thinning for item "FireApp" because arch "arm64e" wasn't found
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionODRStep
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-12-31 22:19:39 +0000  Running /usr/bin/xattr '-crs' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root/Payload/FireApp.app'
+2020-12-31 22:19:39 +0000  /usr/bin/xattr exited with 0
+2020-12-31 22:19:39 +0000  Processing step: IDEDistributionCodesignStep
+2020-12-31 22:19:39 +0000  Entitlements for <IDEDistributionItem: 0x7faf052f3e80; bundleID='com.desition.fireapp', path='<DVTFilePath:0x7faf0ad5e020:'/Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7faf05a2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7faef86de650; name='Apple Development: Daniel Suarez (TF6J5TQ98U)', hash='FF28B16988F443E2B415459EE0B6FA67A274580B', serialNumber='3C8861B15450A36A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-12-31 18:14:32 +0000''>', entitlements='{
+    "application-identifier" = "9NH395GNH2.com.desition.fireapp";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:www.best-podcast-app.com"
+    );
+    "com.apple.developer.team-identifier" = 9NH395GNH2;
+    "get-task-allow" = 1;
+}', teamID='9NH395GNH2', identifier='com.desition.fireapp', executablePath='<DVTFilePath:0x7faef8341360:'/Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app/FireApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "9NH395GNH2.com.desition.fireapp";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:www.best-podcast-app.com"
+    );
+    "com.apple.developer.team-identifier" = 9NH395GNH2;
+    "get-task-allow" = 1;
+}
+2020-12-31 22:19:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7faf052f3e80; bundleID='com.desition.fireapp', path='<DVTFilePath:0x7faf0ad5e020:'/Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7faf05a2ab50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7faef836c940; name='Apple Development: Daniel Suarez (TF6J5TQ98U)', hash='FF28B16988F443E2B415459EE0B6FA67A274580B', serialNumber='3C8861B15450A36A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-12-31 18:14:32 +0000''>', entitlements='{
+    "application-identifier" = "9NH395GNH2.com.desition.fireapp";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:www.best-podcast-app.com"
+    );
+    "com.apple.developer.team-identifier" = 9NH395GNH2;
+    "get-task-allow" = 1;
+}', teamID='9NH395GNH2', identifier='com.desition.fireapp', executablePath='<DVTFilePath:0x7faef8341360:'/Users/admin/Library/Developer/Xcode/Archives/2020-12-31/FireApp 12-31-20, 5.17 PM.xcarchive/Products/Applications/FireApp.app/FireApp'>', hardenedRuntime='0'>'> to: /var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/entitlements~~~xBq8Jt
+2020-12-31 22:19:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'FF28B16988F443E2B415459EE0B6FA67A274580B' '--entitlements' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/entitlements~~~xBq8Jt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root/Payload/FireApp.app'
+2020-12-31 22:20:56 +0000  /var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root/Payload/FireApp.app: signed app bundle with Mach-O universal (armv7 arm64) [com.desition.fireapp]
+2020-12-31 22:20:56 +0000  /usr/bin/codesign exited with 0
+2020-12-31 22:20:56 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-12-31 22:20:56 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-12-31 22:20:56 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-12-31 22:20:56 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root' '/var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Packages/FireApp.ipa'
+2020-12-31 22:20:56 +0000  >>> Copying /var/folders/h_/sm248g8s33x863zm07k6sd2w0000gn/T/XcodeDistPipeline.~~~C2G98c/Root 
+2020-12-31 22:20:56 +0000  copying file ./Payload/FireApp.app/_CodeSignature/CodeResources ... 
+2020-12-31 22:20:56 +0000  6616 bytes for ./Payload/FireApp.app/_CodeSignature/CodeResources
+2020-12-31 22:20:56 +0000  copying file ./Payload/FireApp.app/FireApp ... 
+2020-12-31 22:20:57 +0000  6267984 bytes for ./Payload/FireApp.app/FireApp
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/AccessibilityResources.bundle/en.lproj/Localizable.strings ... 
+530 bytes for ./Payload/FireApp.app/AccessibilityResources.bundle/en.lproj/Localizable.strings
+copying file ./Payload/FireApp.app/AccessibilityResources.bundle/Info.plist ... 
+744 bytes for ./Payload/FireApp.app/AccessibilityResources.bundle/Info.plist
+copying file ./Payload/FireApp.app/GoogleService-Info.plist ... 
+667 bytes for ./Payload/FireApp.app/GoogleService-Info.plist
+copying file ./Payload/FireApp.app/main.jsbundle ... 
+2020-12-31 22:20:57 +0000  767526 bytes for ./Payload/FireApp.app/main.jsbundle
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-12-31 22:20:57 +0000  4104 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2020-12-31 22:20:57 +0000  4112 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-12-31 22:20:57 +0000  4237 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-12-31 22:20:57 +0000  896 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2020-12-31 22:20:57 +0000  896 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-12-31 22:20:57 +0000  896 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/FireApp.app/LaunchScreen.storyboardc/Info.plist
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/embedded.mobileprovision ... 
+2020-12-31 22:20:57 +0000  11668 bytes for ./Payload/FireApp.app/embedded.mobileprovision
+2020-12-31 22:20:57 +0000  copying file ./Payload/FireApp.app/assets/app.json ... 
+2020-12-31 22:20:57 +0000  51 bytes for ./Payload/FireApp.app/assets/app.json
+copying file ./Payload/FireApp.app/Info.plist ... 
+2020-12-31 22:20:57 +0000  2708 bytes for ./Payload/FireApp.app/Info.plist
+copying file ./Payload/FireApp.app/PkgInfo ... 
+2020-12-31 22:20:57 +0000  8 bytes for ./Payload/FireApp.app/PkgInfo
+2020-12-31 22:20:57 +0000  /usr/bin/ditto exited with 0
+2020-12-31 22:20:57 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-12-31 22:20:57 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-12-31 22:20:57 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-12-31 22:20:57 +0000  Processing step: IDEDistributionCreateManifestStep

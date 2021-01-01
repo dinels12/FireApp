@@ -21,6 +21,9 @@ const App = () => {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
+    messaging().subscribeToTopic('all');
+    checkPermission();
+    createNotificationListeners();
     dynamic();
     const unsubscribe = dynamicLinks().onLink((link) => {
       if (link) {
@@ -29,10 +32,6 @@ const App = () => {
         setName(`This Page is for ${user[0].toUpperCase()}${user.slice(1)}`);
       }
     });
-
-    messaging().subscribeToTopic('all');
-    checkPermission();
-    createNotificationListeners();
     setLoading(false);
     return unsubscribe;
   }, []);
@@ -70,9 +69,16 @@ const App = () => {
 
   const requestPermission = async () => {
     try {
-      await messaging().requestPermission();
-      getToken();
-    } catch (e) {
+      const authStatus = await messaging().requestPermission();
+      const enabled =
+        authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+        authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+    
+      if (enabled) {
+        console.log('Authorization status:', authStatus);
+        getToken();
+      }
+  } catch (e) {
       console.log('permission rejected');
     }
   };

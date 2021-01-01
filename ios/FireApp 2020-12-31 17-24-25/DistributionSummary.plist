@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FireApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FF28B16988F443E2B415459EE0B6FA67A274580B</string>
+				<key>dateExpires</key>
+				<string>12/31/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>9NH395GNH2.com.desition.fireapp</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:www.best-podcast-app.com</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>9NH395GNH2</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>FireApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a0156e1a-4335-4c79-8dec-9d9d1e6ca545</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.desition.fireapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>9NH395GNH2</string>
+				<key>name</key>
+				<string>JIFCAM INC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
